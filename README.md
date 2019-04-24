@@ -44,7 +44,20 @@ _Dice description._
 
 * _Clone repository to your desktop_
 * _Open in Atom, or text and source code editor of your choosing._
-* _CREATE Database Dice._
+* Download and install .Net Core 1.1.4
+* Download and install Mono
+* Download and install MAMP 4.5
+* Go to GitHub profile and clone the repo from https://github.com/vmartinezlive/Restaurant-Roulette.git. 
+* Open MAMP and start the Apache and MySql servers
+* Navigate to MAMP > Tools > phpMyAdmin and import the RestaurantRoulette.sql file to create the database
+* Navigate to MAMP > Tools > phpMyAdmin and import the RestaurantRoulette_Tests.sql file to create the test database
+* Generate and add Google Maps API key to the project in RestaurantRoulette>>Views>>User>>All to the API call.
+* Run dotnet restore from Main Project Folder (RestaurantRoulette) and Test Directory (RestaurantRoulette.Tests) to install packages
+* Run dotnet build from Main Project Folder and make sure no build errors appear. Run dotnet restore after build is complete.
+* Run dotnet restore to compile tests and then dotnet test from the Test Directory to run the testing suite. All tests should pass._
+* Run dotnet run from Main Project Folder to start the server
+Wait till you see this message display in you bash terminal - "Now listening on: http://localhost:xxxx" 1* Copy the local host link http://localhost:xxx and paste it into your web browser address bar. 1* Browse through the project.
+* _CREATE Database Dice_
 * _CREATE TABLE `Dice`.`User` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `distance` INT NOT NULL , `price` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;_
 * _CREATE TABLE `Dice`.`Restaurants` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `longitude` INT NOT NULL , `latitude` INT NOT NULL , `menu` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;_
 * _CREATE TABLE `Dice`.`User_Restaurants` ( `id` INT NOT NULL AUTO_INCREMENT , `user_id` INT NOT NULL , `restaurant_id` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;_
