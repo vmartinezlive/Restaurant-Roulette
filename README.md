@@ -1,46 +1,46 @@
 # _Roll The Dice_
 
-#### By _**Tanvi Garg, Sheila Stephen, Victoria Martinez, Tavish OKeefe, Ryan Leslie, **_
+#### By Tanvi Garg, Sheila Stephen, Victoria Martinez, Tavish OKeefe, Ryan Leslie
 
 ## Description
 
 _Dice description._
 
 ## Specifications
-* _**Create database to store information, and test database to test information.**_
-* _**Create table to hold Users name and id.**_
-* _**Create table to hold restaurant name, id, and User key id.**_
-* _**Create class, constructor, and properties for Users.**_
-* _**create class, constructor, and properties for Restaurants.**_
-* _**Write method to get Users name.**_
-* _**Write test for get User name method.**_
-* _**Write method to get User id.**_
-* _**Write test for get User id.**_
-* _**Write method to save User name, and assign id.**_
-* _**Write method to get User name, and id.**_
-* _**Write test to check that User GetAll method returns an empty list.**_
-* _**Write test to check that User GetAll method returns inputed new objects.**_
-* _**Write test to test User save method is operational.**_
-* _**Write User Equals method so as to separate primary data table and test data table. (Result in stylist GetAll and Save method tests passing).**_
-* _**Write method to get Restaurant name.**_
-* _**Write test for get Restaurant name method.**_
-* _**Write method to get Restaurant id.**_
-* _**Write test for get Restaurant id.**_
-* _**Write method to save Restaurant name, and assign id.**_
-* _**Write method to get Restaurant name, and id.**_
-* _**Write test to check that Restaurant GetAll method returns an empty list.**_
-* _**Write test to check that Restaurant GetAll method returns inputed new objects.**_
-* _**Write test to test Restaurant save method is operational.**_
-* _**Write Restaurant Equals method so as to separate primary data table and test data table. (Result in Restaurant GetAll and Save method tests passing).**_
-* _**Write Find method to locate individual Users based on their unique Id's.**_
-* _**Write test for Find method to assert that input and result AreEqual based on the use of the Find Method using a unique Id.**_
-* _**Write a method to return a list of the objects (Restaurants), associated with User specified unique Id's.**_
-* _**Write test for Get Method, and see that it returns an empty array if no User is associated with a particular Restaurant Id.**_
-* _**Write test for Get Method, and see that it returns User object list associated with Restaurant, based on the Id of Restaurant, and the id_User of User.**_
+* Create database to store information, and test database to test information.
+* Create table to hold Users name and id.
+* Create table to hold restaurant name, id, and User key id.
+* Create class, constructor, and properties for Users.
+* create class, constructor, and properties for Restaurants.
+* Write method to get Users name.
+* Write test for get User name method.
+* Write method to get User id.
+* Write test for get User id.
+* Write method to save User name, and assign id.
+* Write method to get User name, and id.
+* Write test to check that User GetAll method returns an empty list.
+* Write test to check that User GetAll method returns inputed new objects.
+* Write test to test User save method is operational.
+* Write User Equals method so as to separate primary data table and test data table. (Result in stylist GetAll and Save method tests passing).
+* Write method to get Restaurant name.
+* Write test for get Restaurant name method.
+* Write method to get Restaurant id.
+* Write test for get Restaurant id.
+* Write method to save Restaurant name, and assign id.
+* Write method to get Restaurant name, and id.
+* Write test to check that Restaurant GetAll method returns an empty list.
+* Write test to check that Restaurant GetAll method returns inputed new objects.
+* Write test to test Restaurant save method is operational.
+* Write Restaurant Equals method so as to separate primary data table and test data table. (Result in Restaurant GetAll and Save method tests passing).
+* Write Find method to locate individual Users based on their unique Id's
+* Write test for Find method to assert that input and result AreEqual based on the use of the Find Method using a unique Id.
+* Write a method to return a list of the objects (Restaurants), associated with User specified unique Id's.
+* Write test for Get Method, and see that it returns an empty array if no User is associated with a particular Restaurant Id.
+* Write test for Get Method, and see that it returns User object list associated with Restaurant, based on the Id of Restaurant, and the id_User of User.
 
 
 
-## _Setup/Installation Requirements_
+## Setup/Installation Requirements
 
 * _Clone repository to your desktop_
 * _Open in Atom, or text and source code editor of your choosing._
@@ -66,21 +66,26 @@ Wait till you see this message display in you bash terminal - "Now listening on:
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+There are no known bugs.
 
 ## Support and contact details
 
-_Tavish OKeefe: okeefe.tavish@gmail.com_
+Contact: Victoria Martinez by emailing to: vmartinez72@live.com
 
 ## Technologies Used
 
-* _CSharp_
-* _JavaScript_
-* _PHPMyAdmin_
+* CSharp
+* JavaScript
+* PHPMyAdmin
+* .Net Core 1.1.4
+* MAMP 4.5 (phpMyAdmin)
+* MySQL
+* Bootstrap 3.3.7
+* jQuery 3.3.1
 
 ### License
 
-Copyright (c) 2018, _Tavish O'Keefe_  
+Copyright (c) 2018, Victoria Martinez 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
